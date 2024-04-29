@@ -1,0 +1,171 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the content within the header */
+header {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 10vh; /* Set height to viewport height for vertical centering */
+}
+
+/* Optional: Style for the h1 and nav */
+header h1 {
+    font-size: 24px; /* Adjust font size as needed */
+}
+
+header nav {
+    margin-left: 20px; /* Add some spacing between the h1 and nav */
+}
+
+/* Center the navigation links within the nav */
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px; /* Add spacing between list items */
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333; /* Change link color as needed */
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f0f0f0; /* Change background color as needed */
+    text-align: center;
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+.bottom-nav {
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.bottom-nav ul {
+    list-style-type: none;
+}
+
+.bottom-nav ul li {
+    display: inline;
+    margin: 0 10px; /* Adjust margin as needed */
+}
+
+.bottom-nav ul li a {
+    text-decoration: none;
+    color: #333; /* Change link color as needed */
+    font-weight: bold;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the image horizontally */
+#hero {
+    text-align: center;
+}
+
+#hero img {
+    display: inline-block; /* Ensure the image is treated as a block element */
+    margin: 0 auto; /* Set left and right margins to auto to center the image */
+}
+/* Add styles for the Contact button */
+.contact-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue color, adjust as needed */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.contact-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover, adjust as needed */
+}
+/* Add styles for the Latest Projects section */
+.latest-projects {
+    text-align: center; /* Center the projects */
+    margin-top: 30px; /* Adjust margin as needed */
+}
+
+.latest-projects h2 {
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+.project {
+    display: inline-block;
+    margin: 0 20px; /* Add space between projects */
+    vertical-align: top; /* Align projects at the top */
+}
+
+.project img {
+    width: 200px; /* Adjust image width as needed */
+    height: auto;
+    border-radius: 5px; /* Add rounded corners to images */
+}
+body {
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with the path to your desired image */
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    font-family: Arial, sans-serif; /* Change the font family as needed */
+}
+.buy-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff; /* Blue color, adjust as needed */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
+.buy-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover, adjust as needed */
+}
+#hero {
+    width: 60%; /* Set the width of the hero section to 60% of the screen */
+    margin: 0 auto; /* Center the hero section horizontally */
+    padding: 20px; /* Add padding for spacing */
+    border: 2px solid #ccc; /* Add a border around the hero section */
+    border-radius: 10px; /* Add rounded corners to the border */
+}
+
+#hero h2 {
+    margin-bottom: 10px; /* Add spacing below the heading */
+}
+
+#hero p, #hero ul {
+    margin-bottom: 15px; /* Add spacing below paragraphs and lists */
+}
+/* Add this CSS to your existing stylesheet */
+
+#services {
+    display: flex;
+    flex-direction: column; /* Display boxes vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.big-box {
+    width: 60%; /* Set width of the box */
+    border: 1px solid #ccc; /* Add border */
+    margin-bottom: 20px; /* Add some spacing between boxes */
+}
+
+.service {
+    padding: 20px; /* Add padding inside the box */
+}
+
